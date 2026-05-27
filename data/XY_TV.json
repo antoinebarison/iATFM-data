@@ -1,0 +1,264 @@
+{
+    "volumes": [
+        {
+            "id": "EDYYALL",
+            "label": "EDYYALL",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH",
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH",
+                "EDYYCELL",
+                "EDYYCELM",
+                "EDYYCELH",
+                "EDYYSOLL",
+                "EDYYSOLM",
+                "EDYYSOLH",
+                "EDYYRHRL",
+                "EDYYRHRM",
+                "EDYYRHRH",
+                "EDYYMNSL",
+                "EDYYMNSM",
+                "EDYYMNSH",
+                "EDYYLNOL",
+                "EDYYLNOH",
+                "EDYYLUXL",
+                "EDYYLUXH",
+                "EDYYKOKL",
+                "EDYYKOKH",
+                "EDYYNIKL",
+                "EDYYNIKH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYY-BRU",
+            "label": "EDYY-BRU",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH",
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH",
+                "EDYYCELL",
+                "EDYYCELM",
+                "EDYYCELH",
+                "EDYYSOLL",
+                "EDYYSOLM",
+                "EDYYSOLH",
+                "EDYYRHRL",
+                "EDYYRHRM",
+                "EDYYRHRH",
+                "EDYYMNSL",
+                "EDYYMNSM",
+                "EDYYMNSH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYY-HAN",
+            "label": "EDYY-HAN",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH",
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH",
+                "EDYYLNOL",
+                "EDYYLNOH",
+                "EDYYLUXL",
+                "EDYYLUXH",
+                "EDYYKOKL",
+                "EDYYKOKH",
+                "EDYYNIKL",
+                "EDYYNIKH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYY-DEC",
+            "label": "EDYY-DEC",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH",
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH",
+                "EDYYCELL",
+                "EDYYCELM",
+                "EDYYCELH",
+                "EDYYSOLL",
+                "EDYYSOLM",
+                "EDYYSOLH",
+                "EDYYRHRL",
+                "EDYYRHRM",
+                "EDYYRHRH",
+                "EDYYMNSL",
+                "EDYYMNSM",
+                "EDYYMNSH",
+                "EDYYLNOL",
+                "EDYYLNOH",
+                "EDYYLUXL",
+                "EDYYLUXH",
+                "EDYYKOKL",
+                "EDYYKOKH",
+                "EDYYNIKL",
+                "EDYYNIKH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYBRU",
+            "label": "EDYYBRU",
+            "sectorId": [
+                "EDYYLNOL",
+                "EDYYLNOH",
+                "EDYYLUXL",
+                "EDYYLUXH",
+                "EDYYKOKL",
+                "EDYYKOKH",
+                "EDYYNIKL",
+                "EDYYNIKH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYHAN",
+            "label": "EDYYHAN",
+            "sectorId": [
+                "EDYYCELL",
+                "EDYYCELM",
+                "EDYYCELH",
+                "EDYYSOLL",
+                "EDYYSOLM",
+                "EDYYSOLH",
+                "EDYYRHRL",
+                "EDYYRHRM",
+                "EDYYRHRH",
+                "EDYYMNSL",
+                "EDYYMNSM",
+                "EDYYMNSH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYDEC",
+            "label": "EDYYDEC",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH",
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYBKN",
+            "label": "EDYYBKN",
+            "sectorId": [
+                "EDYYKOKL",
+                "EDYYKOKH",
+                "EDYYNIKL",
+                "EDYYNIKH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYBOL",
+            "label": "EDYYBOL",
+            "sectorId": [
+                "EDYYLNOL",
+                "EDYYLNOH",
+                "EDYYLUXL",
+                "EDYYLUXH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYHRM",
+            "label": "EDYYHRM",
+            "sectorId": [
+                "EDYYRHRL",
+                "EDYYRHRM",
+                "EDYYRHRH",
+                "EDYYMNSL",
+                "EDYYMNSM",
+                "EDYYMNSH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYHCS",
+            "label": "EDYYHCS",
+            "sectorId": [
+                "EDYYCELL",
+                "EDYYCELM",
+                "EDYYCELH",
+                "EDYYSOLL",
+                "EDYYSOLM",
+                "EDYYSOLH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYDD",
+            "label": "EDYYDD",
+            "sectorId": [
+                "EDYYDELL",
+                "EDYYDELM",
+                "EDYYDELH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        },
+        {
+            "id": "EDYYDJH",
+            "label": "EDYYDJH",
+            "sectorId": [
+                "EDYYJEVL",
+                "EDYYJEVH",
+                "EDYYHOLL",
+                "EDYYHOLH"
+            ],
+            "capacity": {
+            "maxEntryPerHour": 60
+            }
+        }
+
+    ]
+}
