@@ -1,0 +1,122 @@
+{
+  "properties": {
+    "airports": {
+      "LFPG": {
+        "strategies": {
+          "Nominale": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "09": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "27": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          },
+          "RANUX DIKOL => SUD": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX"],
+            "09": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX"],
+            "27": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"]
+          },
+          "ELCOB => SUD": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB"],
+            "09": ["OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB"],
+            "27": ["OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          },
+          "LAN BUB BAX ALI => NORD": {
+            "08": ["PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "27": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          }
+        },
+        "SID": {
+          "ident": "6",
+          "configurations": {
+            "WL": {
+              "26": "B",
+              "27": "A"
+            },
+            "EL": {
+              "08": "H",
+              "09": "G"
+            },
+            "IPOW": {
+              "08": "L",
+              "09": "K"
+            },
+            "IPGW": {
+              "26": "D",
+              "27": "E"
+            },
+            "WLnight": {
+              "26": "Z",
+              "27": "B"
+            }
+          }
+        }
+      },
+      "LFPO": {
+        "strategies": {
+          "Nominale": {
+            "07": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "24": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          }
+        },
+        "SID": {
+          "ident": "2",
+          "configurations": {
+            "WL": {
+              "24": "W",
+              "25": "X"
+            },
+            "EL": {
+              "06": "F",
+              "07": "E"
+            },
+            "IPOW": {
+              "24": "Q",
+              "25": "R"
+            },
+            "IPGW": {
+              "06": "H",
+              "07": "G"
+            },
+            "WL20": {
+              "20": "Y"
+            }
+            ,
+            "IPOW20": {
+              "20": "S"
+            }
+          }
+        }
+      },
+      "LFSB": {
+        "strategies": {
+          "Nominale": {
+            "15": ["MOROK","TORPA","ELBEG","LUMEL","OLBEN"],
+            "33": ["MOROK","TORPA","ELBEG","LUMEL","OLBEN"]
+          }
+        },
+        "SID": {
+          "ident": "8",
+          "configurations": {
+            "15": {
+              "15": "S"
+            },
+            "33": {
+              "33": "N"
+            }
+          }
+        }
+      }
+    },
+    "configurations": {
+      "15": {
+        "LFSB": ["15"]
+      },
+      "33": {
+        "LFSB": ["33"]
+      }
+    }
+  }
+}
