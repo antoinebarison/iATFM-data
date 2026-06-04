@@ -1,0 +1,1218 @@
+{
+    "volumes": [
+    {
+        "id": "LFFFPAR",
+        "label": "LFFFPAR",
+        "sectorIds": [
+            "LFFFOT",
+            "LFFFRT",
+            "LFFFOG",
+            "LFFFOY",
+            "LFFFTP",
+            "LFFFUK",
+            "LFFFTH",
+            "LFFFUZ",
+            "LFFFAP",
+            "LFFFTE",
+            "LFFFTN",
+            "LFFFTB",
+            "LFFFAO",
+            "LFFFAR",
+            "LFFFDO",
+            "LFFFDG",
+            "LFFFDS",
+            "LFFFHP",
+            "LFFFPU",
+            "LFFFPW",
+            "LFFFS",
+            "LFFFTL",
+            "LFFFTM",
+            "LFFFTU",
+            "LFFFTW",
+            "LFFFUJ",
+            "LFFFUP",
+            "LFFFUS",
+            "LFFFUT"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 60,
+            "sustain": 17,
+            "peak": 21
+        }
+    },
+    {
+        "id": "LFFFRPAE",
+        "label": "LFFFRPAE",
+        "sectorIds": [
+            "LFFFAO",
+            "LFFFAR",
+            "LFFFDO",
+            "LFFFDG",
+            "LFFFDS",
+            "LFFFHP",
+            "LFFFPU",
+            "LFFFPW",
+            "LFFFS",
+            "LFFFTL",
+            "LFFFTM",
+            "LFFFTU",
+            "LFFFTW",
+            "LFFFUJ",
+            "LFFFUP",
+            "LFFFUS",
+            "LFFFUT"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 16,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFFFRPAW",
+        "label": "LFFFRPAW",
+        "sectorIds": [
+            "LFFFOT",
+            "LFFFRT",
+            "LFFFOG",
+            "LFFFOY",
+            "LFFFTP",
+            "LFFFUK",
+            "LFFFTH",
+            "LFFFUZ",
+            "LFFFAP",
+            "LFFFTE",
+            "LFFFTN",
+            "LFFFTB"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 33,
+            "sustain": 14,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFFFDGTJ",
+        "label": "LFFFDGTJ",
+        "sectorIds": [
+            "LFFFDG",
+            "LFFFDO",
+            "LFFFDS",
+            "LFFFHP",
+            "LFFFPU",
+            "LFFFPW",
+            "LFFFS",
+            "LFFFTU",
+            "LFFFTW",
+            "LFFFUJ",
+            "LFFFUP",
+            "LFFFUT"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 38,
+            "sustain": 15,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFFFAOML",
+        "label": "LFFFAOML",
+        "sectorIds": [
+            "LFFFAO",
+            "LFFFAR",
+            "LFFFTL",
+            "LFFFTM",
+            "LFFFUS"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 46,
+            "sustain": 16,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFFFAENB",
+        "label": "LFFFAENB",
+        "sectorIds": [
+            "LFFFAP",
+            "LFFFTB",
+            "LFFFTE",
+            "LFFFTN"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 48,
+            "sustain": 14,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFFFOPKZ",
+        "label": "LFFFOPKZ",
+        "sectorIds": [
+            "LFFFOG",
+            "LFFFOT",
+            "LFFFOY",
+            "LFFFRT",
+            "LFFFTH",
+            "LFFFTP",
+            "LFFFUK",
+            "LFFFUZ"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 38,
+            "sustain": 14,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFRRBREST",
+        "label": "LFRRBREST",
+        "sectorIds": [
+            "LFRRAS",
+            "LFRRAI",
+            "LFRRAU",
+            "LFRRGS",
+            "LFRRGI",
+            "LFRRGU",
+            "LFRRNS",
+            "LFRRNF",
+            "LFRRNI",
+            "LFRRNU",
+            "LFRRJS",
+            "LFRRJF",
+            "LFRRJI",
+            "LFRRJU",
+            "LFRRVS",
+            "LFRRVI",
+            "LFRRVU",
+            "LFRRKS",
+            "LFRRKI",
+            "LFRRKU",
+            "LFRRWS",
+            "LFRRWI",
+            "LFRRWU",
+            "LFRRMS",
+            "LFRRMI",
+            "LFRRMU",
+            "LFRRQS",
+            "LFRRQI",
+            "LFRRQU",
+            "LFRRXI",
+            "LFRRXS",
+            "LFRRXU",
+            "LFRRZI",
+            "LFRRZS",
+            "LFRRZU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 15,
+            "peak": 23
+        }
+    },
+    {
+        "id": "LFRRWEST",
+        "label": "LFRRWEST",
+        "sectorIds": [
+            "LFRRNS",
+            "LFRRNF",
+            "LFRRNI",
+            "LFRRNU",
+            "LFRRGS",
+            "LFRRGI",
+            "LFRRGU",
+            "LFRRAS",
+            "LFRRAI",
+            "LFRRAU",
+            "LFRRJS",
+            "LFRRJF",
+            "LFRRJI",
+            "LFRRJU",
+            "LFRRVS",
+            "LFRRVI",
+            "LFRRVU",
+            "LFRRKS",
+            "LFRRKI",
+            "LFRRKU",
+            "LFRRWS",
+            "LFRRWI",
+            "LFRRWU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 15,
+            "peak": 23
+        }
+    },
+    {
+        "id": "LFRREST",
+        "label": "LFRREST",
+        "sectorIds": [
+            "LFRRMS",
+            "LFRRMI",
+            "LFRRMU",
+            "LFRRQS",
+            "LFRRQI",
+            "LFRRQU",
+            "LFRRXS",
+            "LFRRXI",
+            "LFRRXU",
+            "LFRRZI",
+            "LFRRZS",
+            "LFRRZU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 43,
+            "sustain": 16,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFRRNORE",
+        "label": "LFRRNORE",
+        "sectorIds": [
+            "LFRRJS",
+            "LFRRJF",
+            "LFRRJI",
+            "LFRRJU",
+            "LFRRVS",
+            "LFRRVI",
+            "LFRRVU",
+            "LFRRKS",
+            "LFRRKI",
+            "LFRRKU",
+            "LFRRWS",
+            "LFRRWI",
+            "LFRRWU",
+            "LFRRMS",
+            "LFRRMI",
+            "LFRRMU",
+            "LFRRQS",
+            "LFRRQI",
+            "LFRRQU",
+            "LFRRXI",
+            "LFRRXS",
+            "LFRRXU",
+            "LFRRZI",
+            "LFRRZS",
+            "LFRRZU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 36,
+            "sustain": 15,
+            "peak": 23
+        }
+    },
+    {
+        "id": "LFRRNOR",
+        "label": "LFRRNOR",
+        "sectorIds": [
+            "LFRRJS",
+            "LFRRJF",
+            "LFRRJI",
+            "LFRRJU",
+            "LFRRVS",
+            "LFRRVI",
+            "LFRRVU",
+            "LFRRKS",
+            "LFRRKI",
+            "LFRRKU",
+            "LFRRWS",
+            "LFRRWI",
+            "LFRRWU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 45,
+            "sustain": 20,
+            "peak": 24
+        }
+    },
+    {
+        "id": "LFRRNGA",
+        "label": "LFRRNGA",
+        "sectorIds": [
+            "LFRRAS",
+            "LFRRAI",
+            "LFRRAU",
+            "LFRRGS",
+            "LFRRGI",
+            "LFRRGU",
+            "LFRRNS",
+            "LFRRNF",
+            "LFRRNI",
+            "LFRRNU"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 58,
+            "sustain": 22,
+            "peak": 30
+        }
+    },
+    {
+        "id": "LFBBBDX",
+        "label": "LFBBBDX",
+        "sectorIds": [
+            "LFBBBN",
+            "LFBBLM",
+            "LFBBTG",
+            "LFBBTZ",
+            "LFBBR1",
+            "LFBBR2",
+            "LFBBR3",
+            "LFBBR4",
+            "LFBBR5",
+            "LFBBL1",
+            "LFBBL2",
+            "LFBBL3",
+            "LFBBL4",
+            "LFBBL5",
+            "LFBBP1",
+            "LFBBP2",
+            "LFBBP3",
+            "LFBBP4",
+            "LFBBP5",
+            "LFBBT1",
+            "LFBBT2",
+            "LFBBT3",
+            "LFBBT4",
+            "LFBBT5",
+            "LFBBZ1",
+            "LFBBZ2",
+            "LFBBZ3",
+            "LFBBZ4",
+            "LFBBZ5",
+            "LFBBX1",
+            "LFBBX2",
+            "LFBBX3",
+            "LFBBX4",
+            "LFBBX5",
+            "LFBBN1",
+            "LFBBN2",
+            "LFBBN3",
+            "LFBBN4",
+            "LFBBN5",
+            "LFBBH1",
+            "LFBBH2",
+            "LFBBH3",
+            "LFBBH4",
+            "LFBBH5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 28,
+            "sustain": 24,
+            "peak": 28
+        }
+    },
+    {
+        "id": "LFBBUNOR",
+        "label": "LFBBUNOR",
+        "sectorIds": [
+            "LFBBR1",
+            "LFBBR2",
+            "LFBBR3",
+            "LFBBR4",
+            "LFBBR5",
+            "LFBBL1",
+            "LFBBL2",
+            "LFBBL3",
+            "LFBBL4",
+            "LFBBL5",
+            "LFBBP1",
+            "LFBBP2",
+            "LFBBP3",
+            "LFBBP4",
+            "LFBBT1",
+            "LFBBT2",
+            "LFBBT3",
+            "LFBBT4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 44,
+            "sustain": 21,
+            "peak": 27
+        }
+    },
+    {
+        "id": "LFBBUSUD",
+        "label": "LFBBUSUD",
+        "sectorIds": [
+            "LFBBZ1",
+            "LFBBZ2",
+            "LFBBZ3",
+            "LFBBZ4",
+            "LFBBZ5",
+            "LFBBX1",
+            "LFBBX2",
+            "LFBBX3",
+            "LFBBX4",
+            "LFBBX5",
+            "LFBBN1",
+            "LFBBN2",
+            "LFBBN3",
+            "LFBBN4",
+            "LFBBN5",
+            "LFBBH1",
+            "LFBBH2",
+            "LFBBH3",
+            "LFBBH4",
+            "LFBBH5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 48,
+            "sustain": 24,
+            "peak": 30
+        }
+    },
+    {
+        "id": "LFBBUBDX",
+        "label": "LFBBUBDX",
+        "sectorIds": [
+            "LFBBR1",
+            "LFBBR2",
+            "LFBBR3",
+            "LFBBR4",
+            "LFBBR5",
+            "LFBBL1",
+            "LFBBL2",
+            "LFBBL3",
+            "LFBBL4",
+            "LFBBL5",
+            "LFBBP1",
+            "LFBBP2",
+            "LFBBP3",
+            "LFBBP4",
+            "LFBBT1",
+            "LFBBT2",
+            "LFBBT3",
+            "LFBBT4",
+            "LFBBZ1",
+            "LFBBZ2",
+            "LFBBZ3",
+            "LFBBZ4",
+            "LFBBZ5",
+            "LFBBX1",
+            "LFBBX2",
+            "LFBBX3",
+            "LFBBX4",
+            "LFBBX5",
+            "LFBBN2",
+            "LFBBN3",
+            "LFBBN4",
+            "LFBBN5",
+            "LFBBH2",
+            "LFBBH3",
+            "LFBBH4",
+            "LFBBH5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 20,
+            "peak": 24
+        }
+    },
+    {
+        "id": "LFBBFBDX",
+        "label": "LFBBFBDX",
+        "sectorIds": [
+            "LFBBBN",
+            "LFBBLM",
+            "LFBBTG",
+            "LFBBTZ"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 28,
+            "sustain": 24,
+            "peak": 28
+        }
+    },
+    {
+        "id": "LFBBRL",
+        "label": "LFBBRL",
+        "sectorIds": [
+            "LFBBR1",
+            "LFBBR2",
+            "LFBBR3",
+            "LFBBR4",
+            "LFBBR5",
+            "LFBBL1",
+            "LFBBL2",
+            "LFBBL3",
+            "LFBBL4",
+            "LFBBL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 48,
+            "sustain": 22,
+            "peak": 28
+        }
+    },
+    {
+        "id": "LFBBPT",
+        "label": "LFBBPT",
+        "sectorIds": [
+            "LFBBP1",
+            "LFBBP2",
+            "LFBBP3",
+            "LFBBP4",
+            "LFBBT1",
+            "LFBBT2",
+            "LFBBT3",
+            "LFBBT4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 43,
+            "sustain": 18,
+            "peak": 22
+        }
+    },
+    {
+        "id": "LFBBZX",
+        "label": "LFBBZX",
+        "sectorIds": [
+            "LFBBZ1",
+            "LFBBZ2",
+            "LFBBZ3",
+            "LFBBZ4",
+            "LFBBZ5",
+            "LFBBX1",
+            "LFBBX2",
+            "LFBBX3",
+            "LFBBX4",
+            "LFBBX5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50,
+            "sustain": 19,
+            "peak": 23
+        }
+    },
+    {
+        "id": "LFBBNH",
+        "label": "LFBBNH",
+        "sectorIds": [
+            "LFBBN1",
+            "LFBBN2",
+            "LFBBN3",
+            "LFBBN4",
+            "LFBBN5",
+            "LFBBH1",
+            "LFBBH2",
+            "LFBBH3",
+            "LFBBH4",
+            "LFBBH5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50,
+            "sustain": 21,
+            "peak": 25
+        }
+    },
+    {
+        "id": "LFMMMAR",
+        "label": "LFMMMAR",
+        "sectorIds": [
+            "LFMMST",
+            "LFMMBT",
+            "LFMMAJ",
+            "LFMMMN",
+            "LFMMG1",
+            "LFMMG2",
+            "LFMMG3",
+            "LFMMG4",
+            "LFMMY1",
+            "LFMMY2",
+            "LFMMY3",
+            "LFMMY4",
+            "LFMMA1",
+            "LFMMA2",
+            "LFMMA3",
+            "LFMMA4",
+            "LFMMB1",
+            "LFMMB2",
+            "LFMMB3",
+            "LFMMB4",
+            "LFMME1",
+            "LFMME2",
+            "LFMME3",
+            "LFMMK1",
+            "LFMMK2",
+            "LFMMK3"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 45,
+            "sustain": 20,
+            "peak": 26
+        }
+    },
+    {
+        "id": "LFMMRAE",
+        "label": "LFMMRAE",
+        "sectorIds": [
+            "LFMMST",
+            "LFMMBT",
+            "LFMMAJ",
+            "LFMMMN",
+            "LFMMA1",
+            "LFMMA2",
+            "LFMMA3",
+            "LFMMA4",
+            "LFMMB1",
+            "LFMMB2",
+            "LFMMB3",
+            "LFMMB4",
+            "LFMME1",
+            "LFMME2",
+            "LFMME3",
+            "LFMMK1",
+            "LFMMK2",
+            "LFMMK3",
+            "LFMMDD",
+            "LFMMZL",
+            "LFMMZH"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 17,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFMMRAW",
+        "label": "LFMMRAW",
+        "sectorIds": [
+            "LFMMMO",
+            "LFMMML",
+            "LFMMLE",
+            "LFMMLO",
+            "LFMMLS",
+            "LFMMW1",
+            "LFMMW2",
+            "LFMMW3",
+            "LFMMM1",
+            "LFMMM2",
+            "LFMMM3",
+            "LFMMM4",
+            "LFMMF1",
+            "LFMMF2",
+            "LFMMF3",
+            "LFMMF4",
+            "LFMMG1",
+            "LFMMG2",
+            "LFMMG3",
+            "LFMMG4",
+            "LFMMY1",
+            "LFMMY2",
+            "LFMMY3",
+            "LFMMY4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 37,
+            "sustain": 16,
+            "peak": 22
+        }
+    },
+    {
+        "id": "LFMMMALY",
+        "label": "LFMMMALY",
+        "sectorIds": [
+            "LFMMMO",
+            "LFMMML",
+            "LFMMLE",
+            "LFMMLO",
+            "LFMMLS"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 48,
+            "sustain": 15,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFMMRAWU",
+        "label": "LFMMRAWU",
+        "sectorIds": [
+            "LFMMW1",
+            "LFMMW2",
+            "LFMMW3",
+            "LFMMM1",
+            "LFMMM2",
+            "LFMMM3",
+            "LFMMM4",
+            "LFMMF1",
+            "LFMMF2",
+            "LFMMF3",
+            "LFMMF4",
+            "LFMMG1",
+            "LFMMG2",
+            "LFMMG3",
+            "LFMMG4",
+            "LFMMY1",
+            "LFMMY2",
+            "LFMMY3",
+            "LFMMY4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 24,
+            "peak": 28
+        }
+    },
+    {
+        "id": "LFMMRAWN",
+        "label": "LFMMRAWN",
+        "sectorIds": [
+            "LFMMLE",
+            "LFMMLO",
+            "LFMMLS",
+            "LFMMW1",
+            "LFMMW2",
+            "LFMMW3",
+            "LFMMG1",
+            "LFMMG2",
+            "LFMMG3",
+            "LFMMG4",
+            "LFMMY1",
+            "LFMMY2",
+            "LFMMY3",
+            "LFMMY4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 16,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFMMRAWS",
+        "label": "LFMMRAWS",
+        "sectorIds": [
+            "LFMMMO",
+            "LFMMM1",
+            "LFMMM2",
+            "LFMMM3",
+            "LFMMM4",
+            "LFMMF1",
+            "LFMMF2",
+            "LFMMF3",
+            "LFMMF4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 35,
+            "sustain": 16,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFMMRAEF",
+        "label": "LFMMRAEF",
+        "sectorIds": [
+            "LFMMST",
+            "LFMMBT",
+            "LFMMAJ",
+            "LFMMMN"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 45,
+            "sustain": 15,
+            "peak": 19
+        }
+    },
+    {
+        "id": "LFMMRAEU",
+        "label": "LFMMRAEU",
+        "sectorIds": [
+            "LFMMA1",
+            "LFMMA2",
+            "LFMMA3",
+            "LFMMA4",
+            "LFMMB1",
+            "LFMMB2",
+            "LFMMB3",
+            "LFMMB4",
+            "LFMME1",
+            "LFMME2",
+            "LFMME3",
+            "LFMMK1",
+            "LFMMK2",
+            "LFMMK3",
+            "LFMMD1",
+            "LFMMD2",
+            "LFMMD3",
+            "LFMMD4",
+            "LFMMZL",
+            "LFMMZH"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50,
+            "sustain": 21,
+            "peak": 25
+        }
+    },
+    {
+        "id": "LFMMRAEN",
+        "label": "LFMMRAEN",
+        "sectorIds": [
+            "LFMMST",
+            "LFMMMN",
+            "LFMMA1",
+            "LFMMA2",
+            "LFMMA3",
+            "LFMMA4",
+            "LFMMB1",
+            "LFMMB2",
+            "LFMMB3",
+            "LFMMB4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 18,
+            "peak": 20
+        }
+    },
+    {
+        "id": "LFMMRAES",
+        "label": "LFMMRAES",
+        "sectorIds": [
+            "LFMMBT",
+            "LFMMAJ",
+            "LFMME1",
+            "LFMME2",
+            "LFMME3",
+            "LFMMK1",
+            "LFMMK2",
+            "LFMMK3",
+            "LFMMDD",
+            "LFMMZL",
+            "LFMMZH"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 24,
+            "peak": 28
+        }
+    },
+    {
+        "id": "LFEERMS",
+        "label": "LFEERMS",
+        "sectorIds": [
+            "LFEEUF",
+            "LFEEKF",
+            "LFEEUE",
+            "LFEEXE",
+            "LFEEKE",
+            "LFEEHE",
+            "LFEEUH",
+            "LFEEXH",
+            "LFEEKH",
+            "LFEEHH",
+            "LFEEUB",
+            "LFEEKN",
+            "LFEEUN",
+            "LFEEHN",
+            "LFEEKD",
+            "LFEEHR",
+            "LFEEKR",
+            "LFEEUR",
+            "LFEEXR",
+            "LFEEYB",
+            "LFEEYR"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 32,
+            "sustain": 14,
+            "peak": 16
+        }
+    },
+    {
+        "id": "LFEEURME",
+        "label": "LFEEURME",
+        "sectorIds": [
+            "LFEEUE",
+            "LFEEXE",
+            "LFEEKE",
+            "LFEEHE",
+            "LFEEUH",
+            "LFEEXH",
+            "LFEEKH",
+            "LFEEHH",
+            "LFEEUF",
+            "LFEEKF",
+            "LFEEKD"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 13,
+            "peak": 15
+        }
+    },
+    {
+        "id": "LFEEURMN",
+        "label": "LFEEURMN",
+        "sectorIds": [
+            "LFEEUB",
+            "LFEEUN",
+            "LFEEKN",
+            "LFEEHN",
+            "LFEEUR",
+            "LFEEXR",
+            "LFEEKR",
+            "LFEEYR",
+            "LFEEHR",
+            "LFEEYB"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 46,
+            "sustain": 13,
+            "peak": 15
+        }
+    },
+    {
+        "id": "LFRSGLOB",
+        "label": "LFRSGLOB",
+        "sectorIds": [
+            "LFRSRS",
+            "LFRSNA",
+            "LFRSNB",
+            "LFRSLU"
+        ],
+        "capacity": {"maxEntryPerHour": 16}
+    },
+    {
+        "id": "LFSTALL",
+        "label": "LFSTALL",
+        "sectorIds": [
+            "LFSTSU",
+            "LFSTSC",
+            "LFSTRW",
+            "LFSTRE"
+        ],
+        "capacity": {"maxEntryPerHour": 23}
+    },
+    {
+        "id": "LFMTTMA",
+        "label": "LFMTTMA",
+        "sectorIds": [
+            "LFMTFA",
+            "LFMTFE",
+            "LFMTFB"
+        ],
+        "capacity": {"maxEntryPerHour": 12}
+    },
+    {
+        "id": "LFSBALL",
+        "label": "LFSBALL",
+        "sectorIds": [
+            "LFSBBA",
+            "LFSBBC",
+            "LFSBBM",
+            "LFSBBO",
+            "LFSBBU"
+        ],
+        "capacity": {"maxEntryPerHour": 30}
+    },
+    {
+        "id": "LFSBBA",
+        "label": "LFSBBA",
+        "sectorIds": [
+            "LFSBBA"
+        ],
+        "capacity": {"maxEntryPerHour": 20}
+    },
+    {
+        "id": "LFSBBA-",
+        "label": "LFSBBA-",
+        "sectorIds": [
+            "LFSBBC",
+            "LFSBBM",
+            "LFSBBO",
+            "LFSBBU"
+        ],
+        "capacity": {"maxEntryPerHour": 30}
+    },
+    {
+        "id": "LFPG",
+        "label": "LFPG",
+        "arrival": ["LFPG"],
+        "departure": ["LFPG"],
+        "capacity": {"maxEntryPerHour": 120}
+    },
+    {
+        "id": "LFPGPO+",
+        "label": "LFPGPO+",
+        "arrival": ["LFPG","LFPB","LFPO","LFPV","LFPN","LFPT","LFOB"],
+        "departure": ["LFPG","LFPB","LFPO","LFPV","LFPN","LFPT","LFOB"],
+        "capacity": {"maxEntryPerHour": 155}
+    },
+    {
+        "id": "LFPGARR",
+        "label": "LFPGARR",
+        "arrival": ["LFPG"],
+        "capacity": {"maxEntryPerHour": 76}
+    },
+    {
+        "id": "LFPBARR",
+        "label": "LFPBARR",
+        "arrival": ["LFPB"],
+        "capacity": {"maxEntryPerHour": 15}
+    },
+    {
+        "id": "LFPOARR",
+        "label": "LFPOARR",
+        "arrival": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 38}
+        
+    },
+    {
+        "id": "LFPOALL",
+        "label": "LFPOALL",
+        "arrival": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 38}
+        
+    },
+    {
+        "id": "LFMNARR",
+        "label": "LFMNARR",
+        "arrival": ["LFMN"],
+        "capacity": {"maxEntryPerHour": 18}
+    },
+    {
+        "id": "LFLLTMA",
+        "label": "LFLLTMA",
+        "sectorIds": [
+            "LFLLLB",
+            "LFLLVE",
+            "LFLLVW"
+        ],
+        "capacity": {"maxEntryPerHour": 20}
+    },
+    {
+        "id": "LFLLARR",
+        "label": "LFLLARR",
+        "arrival": ["LFLL"],
+        "capacity": {"maxEntryPerHour": 36}
+    },
+    {
+        "id": "LFKJARR",
+        "label": "LFKJARR",
+        "arrival": ["LFKJ"],
+        "capacity": {"maxEntryPerHour": 7}
+    },
+    {
+        "id": "LFKBARR",
+        "label": "LFKBARR",
+        "arrival": ["LFKB"],
+        "capacity": {"maxEntryPerHour": 5}
+    },
+    {
+        "id": "LFMLARR",
+        "label": "LFMLARR",
+        "arrival": ["LFML"],
+        "capacity": {"maxEntryPerHour": 14}
+    },
+    {
+        "id": "LFBOARR",
+        "label": "LFBOARR",
+        "arrival": ["LFBO"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+    {
+        "id": "LFBDARR",
+        "label": "LFBDARR",
+        "arrival": ["LFBD"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+    {
+        "id": "LFBZARR",
+        "label": "LFBZARR",
+        "arrival": ["LFBZ"],
+        "capacity": {"maxEntryPerHour": 4}
+    },
+    {
+        "id": "LFBHARR",
+        "label": "LFBHARR",
+        "arrival": ["LFBH"],
+        "capacity": {"maxEntryPerHour": 4}
+    },
+    {
+        "id": "LFBIARR",
+        "label": "LFBIARR",
+        "arrival": ["LFBI"]
+    },
+    {
+        "id": "LFBLARR",
+        "label": "LFBLARR",
+        "arrival": ["LFBL"]
+    },
+    {
+        "id": "LFLCARR",
+        "label": "LFLCARR",
+        "arrival": ["LFLC"]
+    },
+    {
+        "id": "LFBPARR",
+        "label": "LFBPARR",
+        "arrival": ["LFBP"],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFRSARR",
+        "label": "LFRSARR",
+        "arrival": ["LFRS"],
+        "capacity": {"maxEntryPerHour": 16}
+    },
+    {
+        "id": "LFRNARR",
+        "label": "LFRNARR",
+        "arrival": ["LFRN"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+    {
+        "id": "LFRBARR",
+        "label": "LFRBARR",
+        "arrival": ["LFRB"],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFRKARR",
+        "label": "LFRKARR",
+        "arrival": ["LFRK"]
+    },
+    {
+        "id": "LFRGARR",
+        "label": "LFRGARR",
+        "arrival": ["LFRG"],
+        "capacity": {"maxEntryPerHour": 8}
+    },
+    {
+        "id": "LFOBARR",
+        "label": "LFOBARR",
+        "arrival": ["LFOB"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+    {
+        "id": "LFOB",
+        "label": "LFOB",
+        "arrival": ["LFOB"],
+        "departure": ["LFOB"],
+        "capacity": {"maxEntryPerHour": 15}
+    },
+    {
+        "id": "LFQQARR",
+        "label": "LFQQARR",
+        "arrival": ["LFQQ"],
+        "capacity": {"maxEntryPerHour": 10}
+    }
+    ,
+    {
+        "id": "LFSTARR",
+        "label": "LFSTARR",
+        "arrival": ["LFST"],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFSBARR",
+        "label": "LFSBARR",
+        "arrival": ["LFSB"]
+    }
+]
+}
