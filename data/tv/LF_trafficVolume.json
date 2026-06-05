@@ -1110,6 +1110,54 @@
         "capacity": {"maxEntryPerHour": 14}
     },
     {
+        "id": "LFMLMB",
+        "label": "LFMLMB",
+        "sectorIds": [
+            "LFMLMB"
+        ],
+        "FlowEx": [
+            ">ADLFMLG",
+            "ADLFMLG>"
+        ],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFMLME",
+        "label": "LFMLME",
+        "sectorIds": [
+            "LFMLME"
+        ],
+        "FlowEx": [
+            ">ADLFMLG",
+            "ADLFMLG>"
+        ],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFMLMEMB",
+        "label": "LFMLMEMB",
+        "sectorIds": [
+            "LFMLME",
+            "LFMLMB"
+        ],
+        "FlowEx": [
+            ">ADLFMLG",
+            "ADLFMLG>"
+        ],
+        "capacity": {"maxEntryPerHour": 2}
+    },
+    {
+        "id": "LFMLCTA",
+        "label": "LFMLCTA",
+        "sectorIds": [
+            "LFMLME",
+            "LFMLMB",
+            "LFMLMAC",
+            "LFMLMZ"
+        ],
+        "capacity": {"maxEntryPerHour": 42}
+    },
+    {
         "id": "LFBOARR",
         "label": "LFBOARR",
         "arrival": ["LFBO"],
@@ -1171,6 +1219,14 @@
         "label": "LFRBARR",
         "arrival": ["LFRB"],
         "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFRBSIV",
+        "label": "LFRBSIV",
+        "sectorIds": [
+            "LFRBIQ"
+        ],
+        "capacity": {"maxEntryPerHour": 12}
     },
     {
         "id": "LFRKARR",
