@@ -142,7 +142,7 @@ They can be define by one or more elementary sector, if needed, with exclusion a
     }
 ```
 
-## LF_aiport_group.json:
+## **_aiport_group.json:
 List of airport group, can be used in TV Flow parameters and future aXFL files.
 
 | Parameter | Type | Description |
@@ -152,5 +152,132 @@ List of airport group, can be used in TV Flow parameters and future aXFL files.
 | `airports` | list | list of airport |
 
 # CDM Data
+## gts folder
+Simply drop the aurora .gts file. This file is used to determine the exact gate displayed on the CDM strip.
 
-Coming Soon
+## **_adOwnership.json
+List of position priority for each airport. This file is used to determine ownership of departure. To display strip and grant modification only to ATC responsible.
+| Parameter | Type | Description |
+|---|---|---|
+| `icao` | text | airport ICAO |
+| `positionPriority` | text | list of ATC callsign, from highest to lowest priority |
+```json
+[
+    {
+        "icao": "LFPG",
+        "positionPriority": ["LFPG_DEL","LFPG_GND","LFPG_TWR","LFPG_APP","LFFF_W_CTR","LFFF_CTR"]
+    }
+]
+```
+## **_cdmData.json
+List of apron/parking area, used to determine the taxitime from the parking to the runway
+| Parameter | Description |
+|---|---|
+| `type` | type if geometry, only polygon is supported in the current version |
+| `coordinates` | coordinates in degrees format |
+| `icao` | ICAO code for the airport |
+| `label` | name of the area, will be used as a fallback for display in CDM strips |
+| `taxiout` | if the area is taxiout only, standard pushback time is added if set to `true` |
+| `***` | taxitime for the designated runway |
+
+```json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [2.565188,48.999902],
+            [2.558365,48.999639],
+            [2.557148,49.002677],
+            [2.564816,49.002751],
+            [2.565188,48.999902]
+          ]
+        ]
+      },
+      "properties": {
+        "icao": "LFPG",
+        "label": "A",
+        "taxiout": false,
+        "26R": 15,
+        "27L": 17,
+        "08L": 10,
+        "09R": 17
+      }
+    }
+]
+}
+```
+
+## **_gld.json
+This file is used to determine the departure runway and sid assignation
+| Parameter | Description |
+|---|---|
+| `airports` | list all airports as an object |
+| `strategies` | define all runwways as an object and list the SID assignation for each runway. For single runway airport, simply defined all SID for both runways |
+| `ident` | current AIRAC SID ident. For airport with multiple ident...well...it's not supported for the moment |
+| `configuration` | list all departure runways and their associated procedure letter |
+```json
+{
+  "properties": {
+    "airports": {
+      "LFPG": {
+        "strategies": {
+          "Nominale": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "09": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "27": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          },
+          "RANUX DIKOL => SUD": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX"],
+            "09": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX"],
+            "27": ["ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"]
+          },
+          "ELCOB => SUD": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB"],
+            "09": ["OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB"],
+            "27": ["OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          },
+          "LAN BUB BAX ALI => NORD": {
+            "08": ["PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "26": ["PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
+            "27": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          }
+        },
+        "SID": {
+          "ident": "6",
+          "configurations": {
+            "WL": {
+              "26": "B",
+              "27": "A"
+            },
+            "EL": {
+              "08": "H",
+              "09": "G"
+            },
+            "IPOW": {
+              "08": "L",
+              "09": "K"
+            },
+            "IPGW": {
+              "26": "D",
+              "27": "E"
+            },
+            "WLnight": {
+              "26": "Z",
+              "27": "B"
+            }
+          }
+        }
+      }
+}
+}
+}
+```
