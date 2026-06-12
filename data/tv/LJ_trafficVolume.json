@@ -1,0 +1,27 @@
+{
+    "volumes": [
+    {
+        "id": "LJONE",
+        "label": "LJONE",
+        "sectorIds": [
+            "LJLJAPP",
+            "LJLA2429",
+            "LJLA30",
+            "LJLA31",
+            "LJLA32",
+            "LJLA33",
+            "LJLA34",
+            "LJLA35",
+            "LJLA36",
+            "LJLA37",
+            "LJLA38",
+            "LJLA3966"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50,
+            "sustain": 9,
+            "peak": 12
+        }
+    }
+]
+}
