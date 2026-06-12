@@ -33,35 +33,9 @@
                 "EDYYNIKH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
-            }
-        },
-        {
-            "id": "EDYY-BRU",
-            "label": "EDYY-BRU",
-            "sectorId": [
-                "EDYYJEVL",
-                "EDYYJEVH",
-                "EDYYHOLL",
-                "EDYYHOLH",
-                "EDYYDELL",
-                "EDYYDELM",
-                "EDYYDELH",
-                "EDYYCELL",
-                "EDYYCELM",
-                "EDYYCELH",
-                "EDYYSOLL",
-                "EDYYSOLM",
-                "EDYYSOLH",
-                "EDYYRHRL",
-                "EDYYRHRM",
-                "EDYYRHRH",
-                "EDYYMNSL",
-                "EDYYMNSM",
-                "EDYYMNSH"
-            ],
-            "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 120,
+            "sustain": 20,
+            "peak": 28
             }
         },
         {
@@ -85,7 +59,9 @@
                 "EDYYNIKH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 120,
+            "sustain": 20,
+            "peak": 28
             }
         },
         {
@@ -121,12 +97,14 @@
                 "EDYYNIKH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 120,
+            "sustain": 20,
+            "peak": 28
             }
         },
         {
-            "id": "EDYYBRU",
-            "label": "EDYYBRU",
+            "id": "MASBALL",
+            "label": "MASBALL",
             "sectorId": [
                 "EDYYLNOL",
                 "EDYYLNOH",
@@ -138,12 +116,14 @@
                 "EDYYNIKH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 74,
+            "sustain": 20,
+            "peak": 24
             }
         },
         {
-            "id": "EDYYHAN",
-            "label": "EDYYHAN",
+            "id": "MASHALL",
+            "label": "MASHALL",
             "sectorId": [
                 "EDYYCELL",
                 "EDYYCELM",
@@ -159,12 +139,14 @@
                 "EDYYMNSH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 74,
+            "sustain": 18,
+            "peak": 22
             }
         },
         {
-            "id": "EDYYDEC",
-            "label": "EDYYDEC",
+            "id": "MASDALL",
+            "label": "MASDALL",
             "sectorId": [
                 "EDYYJEVL",
                 "EDYYJEVH",
@@ -175,12 +157,14 @@
                 "EDYYDELH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 64,
+            "sustain": 25,
+            "peak": 28
             }
         },
         {
-            "id": "EDYYBKN",
-            "label": "EDYYBKN",
+            "id": "MASBWST",
+            "label": "MASBWST",
             "sectorId": [
                 "EDYYKOKL",
                 "EDYYKOKH",
@@ -188,12 +172,14 @@
                 "EDYYNIKH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 71,
+            "sustain": 18,
+            "peak": 21
             }
         },
         {
-            "id": "EDYYBOL",
-            "label": "EDYYBOL",
+            "id": "MASBEST",
+            "label": "MASBEST",
             "sectorId": [
                 "EDYYLNOL",
                 "EDYYLNOH",
@@ -201,12 +187,14 @@
                 "EDYYLUXH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 63,
+            "sustain": 16,
+            "peak": 18
             }
         },
         {
-            "id": "EDYYHRM",
-            "label": "EDYYHRM",
+            "id": "MASHWST",
+            "label": "MASHWST",
             "sectorId": [
                 "EDYYRHRL",
                 "EDYYRHRM",
@@ -216,12 +204,14 @@
                 "EDYYMNSH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 60,
+            "sustain": 14,
+            "peak": 16
             }
         },
         {
-            "id": "EDYYHCS",
-            "label": "EDYYHCS",
+            "id": "MASHEST",
+            "label": "MASHEST",
             "sectorId": [
                 "EDYYCELL",
                 "EDYYCELM",
@@ -231,24 +221,28 @@
                 "EDYYSOLH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 60,
+            "sustain": 16,
+            "peak": 20
             }
         },
         {
-            "id": "EDYYDD",
-            "label": "EDYYDD",
+            "id": "MASDWST",
+            "label": "MASDWST",
             "sectorId": [
                 "EDYYDELL",
                 "EDYYDELM",
                 "EDYYDELH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 68,
+            "sustain": 20,
+            "peak": 23
             }
         },
         {
-            "id": "EDYYDJH",
-            "label": "EDYYDJH",
+            "id": "MASDEST",
+            "label": "MASDEST",
             "sectorId": [
                 "EDYYJEVL",
                 "EDYYJEVH",
@@ -256,7 +250,9 @@
                 "EDYYHOLH"
             ],
             "capacity": {
-            "maxEntryPerHour": 60
+            "maxEntryPerHour": 72,
+            "sustain": 25,
+            "peak": 28
             }
         }
 
