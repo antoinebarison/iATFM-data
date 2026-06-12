@@ -16674,7 +16674,7 @@
   },
   {
     "id": "LFRSNA",
-    "positionPriority": ["LFRS_NA_APP","LFRS_APP","LFRR_CTR"],
+    "positionPriority": ["LFRS_NA_APP","LFRS_RS_APP","LFRS_APP","LFRR_CTR"],
     "blocks": [
       {
         "id":"LFRSNA1",
@@ -16774,7 +16774,7 @@
   },
   {
     "id": "LFRSNB",
-    "positionPriority": ["LFRS_NB_APP","LFRS_APP","LFRR_CTR"],
+    "positionPriority": ["LFRS_NB_APP","LFRS_RS_APP","LFRS_APP","LFRR_CTR"],
     "blocks": [
       {
         "id":"LFRSNB1",
@@ -17365,6 +17365,54 @@
           { "lat": 46.8600, "lon": -2.3630 },
           { "lat": 46.7930, "lon": -2.2710 },
           { "lat": 46.5000, "lon": -1.5430 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LFRSRM",
+    "positionPriority": ["LFRS_RM_APP"],
+    "blocks": [
+      {
+        "id":"LFRSRM1",
+        "floorFt": 2500,
+        "ceilingFt": 11500,
+        "polygon": [
+          { "lat": 48.0833, "lon": 0.5000 },
+          { "lat": 47.7500, "lon": 0.5000 },
+          { "lat": 47.4931, "lon": 0.2303 },
+          { "lat": 47.3992, "lon": -0.6794 },
+          { "lat": 47.7342, "lon": -0.7600 },
+          { "lat": 47.8333, "lon": -0.6453 },
+          { "lat": 47.8033, "lon": -0.4514 },
+          { "lat": 47.9331, "lon": -0.2500 },
+          { "lat": 48.1722, "lon": -0.2494 },
+          { "lat": 48.4039, "lon": 0.1994 },
+          { "lat": 48.3381, "lon": 0.4903 },
+          { "lat": 48.0833, "lon": 0.5000 }
+        ]
+      },
+      {
+        "id":"LFRSRM2",
+        "floorFt": 3500,
+        "ceilingFt": 11500,
+        "polygon": [
+          { "lat": 48.4039, "lon": 0.1994 },
+          { "lat": 48.3381, "lon": 0.4903 },
+          { "lat": 48.4581, "lon": 0.3056 },
+          { "lat": 48.4039, "lon": 0.1994 }
+        ]
+      },
+      {
+        "id":"LFRSRM3",
+        "floorFt": 4500,
+        "ceilingFt": 11500,
+        "polygon": [
+          { "lat": 48.1722, "lon": -0.2500 },
+          { "lat": 47.9331, "lon": -0.2500 },
+          { "lat": 47.8033, "lon": -0.4514 },
+          { "lat": 47.8353, "lon": -0.6439 },
+          { "lat": 48.1722, "lon": -0.2500 }
         ]
       }
     ]
