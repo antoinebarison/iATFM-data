@@ -89,6 +89,30 @@
             }
           }
         }
+      },"LFMN": {
+        "strategies": {
+          "Est": {
+            "04L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "04R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
+          },
+          "Ouest": {
+            "22L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "22R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
+          }
+        },
+        "SID": {
+          "ident": "8",
+          "configurations": {
+            "Est": {
+              "04L": "A",
+              "04R": "A"
+            },
+            "Ouest": {
+              "22L": "X",
+              "22R": "X"
+            }
+          }
+        }
       },
       "LFSB": {
         "strategies": {
