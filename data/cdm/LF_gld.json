@@ -134,6 +134,30 @@
             }
           }
         }
+      },"LFML": {
+        "strategies": {
+          "Sud": {
+            "13L": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
+            "13R": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
+          },
+          "Nord": {
+            "31L": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
+            "31R": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
+          }
+        },
+        "SID": {
+          "ident": "6",
+          "configurations": {
+            "Sud": {
+              "13L": "S",
+              "13R": "S"
+            },
+            "Nord": {
+              "31L": "N",
+              "31R": "N"
+            }
+          }
+        }
       },
       "LFSB": {
         "strategies": {
