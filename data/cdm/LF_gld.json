@@ -93,7 +93,9 @@
         "strategies": {
           "Nominale": {
             "04L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
-            "04R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
+            "04R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "22R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "22L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
           }
         },
         "SID": {
