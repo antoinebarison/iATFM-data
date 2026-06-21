@@ -159,6 +159,27 @@
           }
         }
       },
+      "LFKB": {
+        "strategies": {
+          "Sud": {
+            "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"]
+          },
+          "Nord": {
+            "34": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "NORKA", "SODRI"]
+          }
+        },
+        "SID": {
+          "ident": "2",
+          "configurations": {
+            "Sud": {
+              "16": "V"
+            },
+            "Nord": {
+              "34": "R"
+            }
+          }
+        }
+      },
       "LFSB": {
         "strategies": {
           "Nominale": {
