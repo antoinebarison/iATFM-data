@@ -180,7 +180,7 @@
           }
         }
       },
-      "LFKC": {
+      "LFMT": {
         "strategies": {
           "Nominale Sud-Est": {
             "12L": ["BRUSC", "ETREK", "KELAM", "MARRI", "MASAM", "MEN", "MTL", "NG", "PPG"]
