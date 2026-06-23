@@ -114,6 +114,27 @@
           }
         }
       },
+      "LFKJ": {
+        "strategies": {
+          "PARATA": {
+            "20": ["BTA", "CORSI", "CV", "LONSU", "MERLU", "NEGAT", "TINOT", "TORTU", "VAREK"]
+          },
+          "HORRO": {
+            "20": ["BTA", "CORSI", "CV", "LONSU", "NEGAT", "TINOT", "TORTU", "VAREK"]
+          }
+        },
+        "SID": {
+          "ident": "1",
+          "configurations": {
+            "PARATA": {
+              "20": "K"
+            },
+            "HORRO": {
+              "20": "R"
+            }
+          }
+        }
+      },
       "LFSB": {
         "strategies": {
           "Nominale": {
