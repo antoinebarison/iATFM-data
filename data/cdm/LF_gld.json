@@ -200,6 +200,31 @@
           }
         }
       },
+      "LFLL": {
+        "strategies": {
+          "Nominale Sud": {
+            "17L": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MADOT", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"],
+            "17R": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MADOT", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"]
+          },
+          "Nominale Nord": {
+            "35L": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"],
+            "35R": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"]
+          }
+        },
+        "SID": {
+          "ident": "8",
+          "configurations": {
+            "Sud": {
+              "17L": "S",
+              "17R": "S"
+            },
+            "Nord": {
+              "35L": "N",
+              "35R": "N"
+            }
+          }
+        }
+      },
       "LFSB": {
         "strategies": {
           "Nominale": {
