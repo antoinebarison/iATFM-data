@@ -91,13 +91,11 @@
         }
       },"LFMN": {
         "strategies": {
-          "Est": {
+          "Nominale": {
             "04L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
-            "04R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
-          },
-          "Ouest": {
-            "22L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
-            "22R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
+            "04R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "22R": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
+            "22L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"]
           }
         },
         "SID": {
@@ -134,13 +132,14 @@
             }
           }
         }
-      },"LFML": {
+      },
+      "LFML": {
         "strategies": {
-          "Sud": {
+          "Nominale Sud": {
             "13L": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
             "13R": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
           },
-          "Nord": {
+          "Nominale Nord": {
             "31L": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
             "31R": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
           }
@@ -161,10 +160,10 @@
       },
       "LFKB": {
         "strategies": {
-          "Sud": {
+          "Nominale Sud": {
             "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"]
           },
-          "Nord": {
+          "Nominale Nord": {
             "34": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "NORKA", "SODRI"]
           }
         },
