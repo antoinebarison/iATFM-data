@@ -31,5 +31,9 @@
     {
         "icao": "LFKJ",
         "positionPriority": ["LFKJ_GND","LFKJ_TWR","LFKJ_APP","LFMM_E_CTR","LFMM_CTR"]
+    },
+    {
+        "icao": "LFML",
+        "positionPriority": ["LFML_DEL","LFML_GND","LFML_TWR","LFML_APP","LFMM_W_CTR","LFMM_CTR"]
     }
 ]
