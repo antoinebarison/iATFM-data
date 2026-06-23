@@ -180,6 +180,27 @@
           }
         }
       },
+      "LFMT": {
+        "strategies": {
+          "Nominale Sud-Est": {
+            "12L": ["BRUSC", "ETREK", "KELAM", "MARRI", "MASAM", "MEN", "MTL", "NG", "PPG"]
+          },
+          "Nominale Nord-Ouest": {
+            "30R": ["BRUSC", "ETREK", "KELAM", "MARRI", "MEN", "MTL", "NG", "PPG"]
+          }
+        },
+        "SID": {
+          "ident": "8",
+          "configurations": {
+            "Sud-Est": {
+              "12L": "L"
+            },
+            "Nord-Ouest": {
+              "30R": "R"
+            }
+          }
+        }
+      },
       "LFSB": {
         "strategies": {
           "Nominale": {
