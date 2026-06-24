@@ -225,6 +225,57 @@
           }
         }
       },
+      "LFRS": {
+        "strategies": {
+          "Nominale": {
+            "03": ["ANG","LUGEN","LUSON","ERIGA","ERBIN","RIMON","BALNI"],
+            "21": ["ANG","LUGEN","LUSON","ERIGA","ERBIN","RIMON","BALNI"],
+          }
+        },
+        "SID": {
+          "ident": "4",
+          "configurations": {
+            "Nominale": {
+              "03": "N",
+              "21": "S"
+            }
+          }
+        }
+      }
+      "LFRB": {
+        "strategies": {
+          "Nominale": {
+            "07R": ["NORBU","SOMEN","ROSPO","QPR"],
+            "25L": ["NORBU","SOMEN","ROSPO","QPR"],
+          }
+        },
+        "SID": {
+          "ident": "6",
+          "configurations": {
+            "Nominale": {
+              "07R": "F",
+              "25L": "W"
+            }
+          }
+        }
+      },
+      "LFRN": {
+        "strategies": {
+          "Nominale": {
+            "10": ["ATNIS","LABUL","TABIL","GODAN"],
+            "28": ["ATNIS","LABUL","TABIL","GODAN"],
+          }
+        },
+        "SID": {
+          "ident": "5",
+          "configurations": {
+            "Nominale": {
+              "07R": "T",
+              "25L": "W"
+            }
+          }
+        }
+      },
       "LFSB": {
         "strategies": {
           "Nominale": {
